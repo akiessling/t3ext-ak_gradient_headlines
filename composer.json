@@ -1,0 +1,29 @@
+{
+    "name": "andreaskiessling/ak-gradient-headlines",
+    "type": "typo3-cms-extension",
+    "description": "",
+    "authors": [
+        {
+            "name": "Andreas Kießling",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.0",
+    "require": {
+        "typo3/cms-core": "^9.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "AndreasKiessling\\AkGradientHeadlines\\": "Classes"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "AndreasKiessling\\AkGradientHeadlines\\Tests\\": "Tests"
+        }
+    },
+    "replace": {
+        "ak_gradient_headlines": "self.version",
+        "typo3-ter/ak-gradient-headlines": "self.version"
+    }
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2019-05-08T22:15:31Z" product-name="ak_gradient_headlines">
+		<header/>
+		<body>
+			<trans-unit id="gradient.description">
+				<source>gradient</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

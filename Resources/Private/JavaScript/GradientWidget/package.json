@@ -1,0 +1,53 @@
+{
+  "name": "gradientpicker",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build && cp dist/js/app.js ../../../Public/JavaScript/GradientWidget.js",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "circle-slider": "^3.0.4",
+    "core-js": "^2.6.5",
+    "document-register-element": "^1.13.2",
+    "element-ui": "^2.8.2",
+    "node-sass": "^4.12.0",
+    "vue": "^2.6.10",
+    "vue-circle-slider": "^1.0.2",
+    "vue-custom-element": "^3.2.7"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.7.0",
+    "@vue/cli-plugin-eslint": "^3.0.5",
+    "@vue/cli-service": "^3.0.5",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "sass-loader": "^7.1.0",
+    "vue-template-compiler": "^2.5.21"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ]
+}

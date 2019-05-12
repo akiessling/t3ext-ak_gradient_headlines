@@ -1,0 +1,17 @@
+
+tt_content.header {
+    dataProcessing {
+        1557782231 = AndreasKiessling\AkGradientHeadlines\DataProcessor\CssGenerator
+        1557782231 {
+            if.isTrue.field = gradient
+            template (
+            #c{data.uid} header {f:format.raw(value: '{')}
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-image: linear-gradient({gradient.angle}deg,{gradient.start_color},{gradient.end_color});
+                display: inline-block;
+            {f:format.raw(value: '}')}
+            )
+        }
+    }
+}
